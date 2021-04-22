@@ -6,6 +6,11 @@
 
     <link rel="icon" type="image/png" href="favicon.png" />
 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
     <style media="screen">
       body {
         height: 100vh;
@@ -23,10 +28,52 @@
         -o-user-drag: none;
         user-drag: none;
       }
+
+      .ca-button {
+        position:absolute;
+        top:10px;
+        right:10px;
+        width: 100px;
+        text-align: center;
+      }
+
+      .ca-button:hover {
+        /*opacity: 0.75;*/
+        filter: brightness(.95);
+        text-decoration: none;
+      }
+
+      .ca-button img {
+        padding: 10px;
+        padding-bottom: 0;
+        margin-bottom: -5px;
+        margin-top: -10px;
+      }
+
+      .under-construction {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      }
+
+      .opticalraze {
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+      }
+
     </style>
 
   </head>
   <body>
     <img src="assets/logo.svg" alt="Logo">
+    <a href="https://saleclub.ca" class="ca-button card text-dark bg-light">
+      <!--<img src="ca.svg" alt="SaleClub.ca">-->
+      <img src="https://saleclub.ca/assets/logo.svg" alt="SaleClub.ca">
+      saleclub.ca
+    </a>
+    <h1 class="under-construction">Under Construction</h1>
+    <a href="https://opticalraze.com" class="opticalraze text-dark">Optical Raze</a>
   </body>
 </html>
